@@ -1,0 +1,81 @@
+*{
+    margin:0    ;
+    padding:0  ;
+}
+
+p{
+    color:grey;
+    margin-bottom: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    padding:4rem 8rem;
+    text-align: center;
+}
+
+.level-2{
+    font-size: 3.4rem;
+    margin-bottom: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+
+
+
+/* pricing section */
+
+
+#pricing_section .row{
+    margin-top: 1rem;
+display: flex;
+justify-content: space-evenly;
+align-items: baseline;
+}
+
+#pricing_section .row .card{
+    width:25%;
+    /* border:1px solid #ccc; */
+    box-shadow: 0 0 4px 0 #000;
+}
+
+#pricing_section .row .card .card-header{
+    background-color: #ccc;
+    padding:1rem;
+}
+#pricing_section .row .card .card-body{
+    padding:1rem;
+}
+#pricing_section .row .card .card-header h3{
+   font-size: 2rem;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 400;
+}
+
+
+#pricing_section .row .card .card-body h3{
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+#pricing_section .row .card .card-body p{
+    margin:1rem  0;
+}
+
+#pricing_section .row .card .card-body .btn{
+    border: 1px solid #000;
+    padding: 12px 14px;
+    border-radius: 4px;
+    width:100%;
+    background-color: transparent;
+}
+#pricing_section .row .card .card-body .btn-alt{
+    border-color: transparent;
+    color:#fff;
+    padding: 12px 14px;
+    border-radius: 4px;
+    width:100%;
+    background-color: black;
+}
