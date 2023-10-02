@@ -1,81 +1,109 @@
-*{
-    margin:0    ;
-    padding:0  ;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-p{
-    color:grey;
-    margin-bottom: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
+p {
+  color: grey;
+  margin-bottom: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.container{
-    padding:4rem 8rem;
-    text-align: center;
+.container {
+  padding: 4rem 8rem;
+  text-align: center;
 }
 
-.level-2{
-    font-size: 3.4rem;
-    margin-bottom: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 500;
+.level-2 {
+  font-size: 3.4rem;
+  margin-bottom: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
 }
 
+/* header section */
 
+#header {
+  display: flex;
+  background-color: #e83e8c;
+}
 
+#header h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 80px;
+  color: #ccc;
+  padding-bottom: 25px;
+  padding-left: 150px;
+}
+
+.cta-btn {
+  background-color: #000;
+  color: #ccc;
+  padding: 10px;
+  border-color: transparent;
+}
+
+.cta-btn-alt {
+  background-color: #ccc;
+  color: #000;
+  border-color: transparent;
+  padding: 10px;
+}
+
+.img-bx {
+  padding-right: 300px;
+}
 
 /* pricing section */
 
-
-#pricing_section .row{
-    margin-top: 1rem;
-display: flex;
-justify-content: space-evenly;
-align-items: baseline;
+#pricing_section .row {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
 }
 
-#pricing_section .row .card{
-    width:25%;
-    /* border:1px solid #ccc; */
-    box-shadow: 0 0 4px 0 #000;
+#pricing_section .row .card {
+  width: 25%;
+  /* border:1px solid #ccc; */
+  box-shadow: 0 0 4px 0 #000;
 }
 
-#pricing_section .row .card .card-header{
-    background-color: #ccc;
-    padding:1rem;
+#pricing_section .row .card .card-header {
+  background-color: #ccc;
+  padding: 1rem;
 }
-#pricing_section .row .card .card-body{
-    padding:1rem;
+#pricing_section .row .card .card-body {
+  padding: 1rem;
 }
-#pricing_section .row .card .card-header h3{
-   font-size: 2rem;
-   font-family: Arial, Helvetica, sans-serif;
-   font-weight: 400;
-}
-
-
-#pricing_section .row .card .card-body h3{
-    font-size: 3rem;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
+#pricing_section .row .card .card-header h3 {
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
 }
 
-#pricing_section .row .card .card-body p{
-    margin:1rem  0;
+#pricing_section .row .card .card-body h3 {
+  font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
 }
 
-#pricing_section .row .card .card-body .btn{
-    border: 1px solid #000;
-    padding: 12px 14px;
-    border-radius: 4px;
-    width:100%;
-    background-color: transparent;
+#pricing_section .row .card .card-body p {
+  margin: 1rem 0;
 }
-#pricing_section .row .card .card-body .btn-alt{
-    border-color: transparent;
-    color:#fff;
-    padding: 12px 14px;
-    border-radius: 4px;
-    width:100%;
-    background-color: black;
+
+#pricing_section .row .card .card-body .btn {
+  border: 1px solid #000;
+  padding: 12px 14px;
+  border-radius: 4px;
+  width: 100%;
+  background-color: transparent;
+}
+#pricing_section .row .card .card-body .btn-alt {
+  border-color: transparent;
+  color: #fff;
+  padding: 12px 14px;
+  border-radius: 4px;
+  width: 100%;
+  background-color: black;
 }
